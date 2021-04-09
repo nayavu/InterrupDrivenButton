@@ -1,0 +1,17 @@
+{
+  "name": "InterruptDrivenButton",
+  "version": "0.1.0",
+  "keywords": "button",
+  "description": "Advanced button library based on interrupts",
+  "authors": {
+    "name": "NayaVu",
+    "url": "https://naya.vu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nayavu/InterruptDrivenButton.git"
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
