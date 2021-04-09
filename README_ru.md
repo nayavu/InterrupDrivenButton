@@ -117,7 +117,7 @@ void loop() {
                     .....
                 }
             } else if (event.type == IDB_EVENT_HOLD) {
-                byte ticks = event.holdingTicks; // 1, 2, 3, 4.... постепенно увеличивается при удержании кнопки
+                byte ticks = event.holdTicks; // 1, 2, 3, 4.... постепенно увеличивается при удержании кнопки
                 byte clicks = event.clicks; // содержит количество кликов если кликали перед удержанием
             } else if (event.type == IDB_EVENT_BOOT_HOLD) {
                 // удерживали кнопку при загрузке

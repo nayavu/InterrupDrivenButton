@@ -117,7 +117,7 @@ void loop() {
                     .....
                 }
             } else if (event.type == IDB_EVENT_HOLD) {
-                byte ticks = event.holdingTicks; // 1, 2, 3, 4.... constantly increasing during button hold
+                byte ticks = event.holdTicks; // 1, 2, 3, 4.... constantly increasing during button hold
                 byte clicks = event.clicks; // may contain number of clicks if it's click series 
             } else if (event.type == IDB_EVENT_BOOT_HOLD) {
                 // button was held during the boot
